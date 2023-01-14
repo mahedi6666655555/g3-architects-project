@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&family=Work+Sans&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*----------------navication style--------------------
+ --------------------------------------------- */
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+nav h1{
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    
+}
+
+li {
+
+    padding-left: 20px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 70px;
+
+
+
+}
+
+.bg {
+
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    
+}
+
+
+
+.Explore-More-btn {
+
+    padding: 21px 20px 25px 24px;
+    background-color: rgba(255, 144, 14, 1);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* this is animated */
+.Explore-More-btn:hover {
+
+    transform: rotate(360deg);
+    transition: 2s linear 1ms;
+    background-color: red;
+    cursor: pointer;
+}
+
+.babber-title {
+
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+.banner-discription {
+
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.images>img {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    padding-bottom: 45px;
+
+}
+
+
+
+.content-container {
+
+    background-color: white;
+    width: 100%;
+}
+
+.images-sontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 20%;
+    justify-self: center;
+    gap: 20px;
+    padding-left: 301px;
+    padding-top: 40px;
+
+
+
+
+}
+
+
+.text-container-title {}
+
+.text-container-p {}
+
+.button-last {
+    padding: 20px 35px;
+
+}
+
+.new-btn {
+    border: none;
+    border-radius: 8px;
+    background-color: orangered;
+    padding: 20px 35px;
+}
+
+.of-our-black {
+    color: black;
+
+}
+
+.Features-orenged {
+    color: rgba(255, 144, 14, 1);
+}
+
+.Quick-list-gray {
+    color: #727272;
+
+
+}
+
+.text-container-parent {
+    /* display: flex; */
+}
+
+
+ul li:hover {
+    transform: rotate(360deg);
+    transition: 2s linear 1ms;
+    color: orangered;
+}
+
+.text-container-parent {}
+
+.image {
+    /* border: 1px solid red; */
+}
+
+.text-container-parent {
+    display: flex;
+}
+
+.detailes {
+
+    margin-top: 130px;
+
+
+}
+
+.parent-section {
+    margin-left: 240px;
+}
+
+.blog p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 30px;
+    width: 586px;
+    height: 171px;
+
+}
+
+.photo-container {
+    display: flex;
+
+
+}
+
+.photo {
+    display: flex;
+}
+
+.discriptionof-blg {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.detailes-discription p {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 30px;
+
+}
+
+.detailes-p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+
+}
+
+.blog p {
+    color: #727272;
+}
+
+.course-taitle {
+    font-weight: 700;
+    font-size: 45px;
+    padding: 20px;
+    padding-left: 240px;
+}
+
+.course-discription {
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 240px;
+    display: flex;
+    text-align: left;
+}
+
+.course-container {}
+
+.course-img {
+    width: 90px;
+    height: 140px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 60px 35px 36px;
+}
+
+.icons {}
+
+.course-flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.course-img {
+    margin: 30px;
+}
+
+
+/* this is hover trangation for bill bord */
+
+.course-img:hover {
+
+    background-color: red;
+    transform: rotate(360deg);
+    transition: 3s linear 1ms;
+    cursor: pointer;
+}
+
+.course-container-img {
+    margin-top: 30px;
+}
+
+.sponsor-discription {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sponsor-written {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.sponsors-dis {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.this-is-brand {
+    display: flex;
+    justify-content: center;
+
+}
+
+.brand-logo {
+
+    padding: 20px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    mix-blend-mode: luminosity;
+
+}
+
+.footer-section {
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-parent {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-discription {
+    text-align: center;
+
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 216px;
+
+}
